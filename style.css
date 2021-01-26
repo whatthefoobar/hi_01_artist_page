@@ -163,9 +163,11 @@ body{
 
 
 footer {
+  position: relative;
   background-color: rgb(161, 159, 136);
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  bottom: 20px;
   padding: 10px;
   height:50px;
 }
@@ -212,25 +214,47 @@ h5 {
 }
 
 .contact {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-column-gap: 30px;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
 }
 article {
+  flex: 1 1 50%;
   margin-top: 3.6rem;
   margin-left: 1rem;
+  padding: 10px;
   background-color: rgba(13, 13, 13, 0.50);
+  border-radius: 9px;
   color: white;
 }
 
 .contact-img {
-  display: inline-block;
-  position: relative; 
-  width: 100%;
+  flex: 1 1 45%;
+  position: relative;
+  background-image: url("./img/artist.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 15px;
+
+  max-width: 600px;
   margin-top: 3.6rem;
   border-radius: 9px;
   filter: grayscale(100%)
 }
-
+/* .footer{
+  position: relative;
+  height: 20vh;
+}
+.foot{
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+} */
+/* @media (min-width: 500px) {
+  .contact {
+    flex-direction: column;}} */
 
 
