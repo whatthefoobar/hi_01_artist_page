@@ -162,14 +162,13 @@
    .preview-img {
      display: inline-block;
      position: relative; /*this with inline-block and z index to pop images out when we hover */
-     /* height: 230px; */
      border-radius: 9px;
      transform: scale(1);
      transition: .5s ease-in-out;
      z-index: 1;
    }
     .preview-img:hover {
-     transform: scale(1.5);
+     transform: scale(1.7);
      z-index: 2; 
    }
   
