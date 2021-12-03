@@ -26,7 +26,7 @@
   
   .logo {
     font-size: 1.8rem;
-    margin: .7rem ;
+    margin: .7rem  1.2rem;
     color: white;
   }
   .nav-links ul {
@@ -38,7 +38,7 @@
    }
    .nav-links li {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px 12px;
     color: white;
     font-size: 1.4rem;
   }
@@ -194,14 +194,13 @@
   
   .gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 2rem; 
   }
   
   .img-sale {
     display: inline-block;
     position: relative;
-    /* height: 270px; */
     border-radius: 9px;
     filter: grayscale(100%);
       transform: scale(1);
@@ -242,11 +241,12 @@
     margin-right: 2rem;
     padding: 2rem;
   }
-  .contact-text{
-    padding: 2rem/* margin:1rem 3rem 1rem 2rem; */
+  .contact-text {
+    padding: 2rem;
+    font-size:1.2rem;
   }
   .contact-img {
-    max-width: 400px;
+    max-width: 500px;
     position: relative; 
     width: 100%;
     margin-left: 2rem;
