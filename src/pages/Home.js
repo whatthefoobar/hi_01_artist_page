@@ -9,10 +9,10 @@ import img6 from "../assets/img/bw6.jpg";
 const Home = () => {
   return (
     <main className="main">
-      <div class="container row grey">
-        <section class="col text-container">
-          <h2 class="intro">Hello, my name is...</h2>
-          <div class="text">
+      <div className="container row grey">
+        <section className="col text-container">
+          <h2 className="intro">Hello, my name is...</h2>
+          <div className="text">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl
@@ -37,23 +37,23 @@ const Home = () => {
         </section>
 
         <section className="col img-container">
-          <div class="img">
-            <img class="preview-img" src={img1} alt="black and white 1" />
+          <div className="img">
+            <img className="preview-img" src={img1} alt="black and white 1" />
           </div>
-          <div class="img">
-            <img class="preview-img" src={img2} alt="black and white 2" />
+          <div className="img">
+            <img className="preview-img" src={img2} alt="black and white 2" />
           </div>
-          <div class="img">
-            <img class="preview-img" src={img3} alt="black and white 3" />
+          <div className="img">
+            <img className="preview-img" src={img3} alt="black and white 3" />
           </div>
-          <div class="img">
-            <img class="preview-img" src={img4} alt="black and white 4" />
+          <div className="img">
+            <img className="preview-img" src={img4} alt="black and white 4" />
           </div>
-          <div class="img">
-            <img class="preview-img" src={img5} alt="black and white 5" />
+          <div className="img">
+            <img className="preview-img" src={img5} alt="black and white 5" />
           </div>
-          <div class="img">
-            <img class="preview-img" src={img6} alt="black and white 6" />
+          <div className="img">
+            <img className="preview-img" src={img6} alt="black and white 6" />
           </div>
         </section>
       </div>
