@@ -1,0 +1,33 @@
+.sale-intro {
+  margin: 30px 0px 20px 15px;
+}
+.container1 {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.img-sale {
+  display: inline-block;
+  position: relative;
+  border-radius: 9px;
+  filter: grayscale(100%);
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+  z-index: 1;
+}
+.img-sale:hover {
+  filter: grayscale(0%);
+  transform: scale(1.3);
+  z-index: 2;
+}
+h5 {
+  background-color: rgba(13, 13, 13, 0.55);
+  border-radius: 12px;
+  color: white;
+}

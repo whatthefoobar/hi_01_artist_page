@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-image: url(./assets/img/bw.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+  }
+  .col {
+    width: 100%; /*or flex-grow of 1 this creates even columns*/
+  }
+  .col + .col {
+    margin-left: 4em;
+  }
+  .intro__title {
+    font-size: 3.75rem;
+  }
+}
