@@ -12,7 +12,7 @@ import sale10 from "../assets/img/g10.jpg";
 
 const Store = () => {
   return (
-    <div className="container1 gallery">
+    <div className="container gallery">
       <div className="img-box">
         <img className="img-sale" src={sale1} alt="sale no 1" />
         {/* <h5>Test title - 40$</h5>  */}
