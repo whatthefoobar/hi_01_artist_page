@@ -21,13 +21,11 @@ const Contact = () => {
             velit debitis saepe rem incidunt qui deleniti vel iste neque
             commodi, id, recusandae, ab ullam aperiam doloremque itaque
             laboriosam necessitatibus illo! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Expedita velit debitis saepe rem
-            incidunt qui deleniti vel iste neque commodi, id, recusandae, ab
-            ullam aperiam doloremque itaque laboriosam necessitatibus illo!
+            consectetur adipisicing elit.
           </p>
+          {/* <br />
           <br />
-          <br />
-          <br />
+          <br /> */}
           <h4>Let's talk.</h4>
           <p>Email: artist@photography.com</p>
 

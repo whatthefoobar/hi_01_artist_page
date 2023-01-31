@@ -9,14 +9,14 @@
 
 .Navbar > .nav-logo {
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin: 15px;
   color: #ffffff;
 }
 
 .Navbar > .nav-items > a {
   color: #ffffff;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-decoration: none;
   margin: 15px;
   position: relative;
