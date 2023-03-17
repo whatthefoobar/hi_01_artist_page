@@ -13,22 +13,20 @@ const Contact = () => {
             commodi, id, recusandae, ab ullam aperiam doloremque itaque
             laboriosam necessitatibus illo! Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Expedita velit debitis saepe rem
-            incidunt qui deleniti vel iste neque commodi, id, recusandae, ab
-            ullam aperiam doloremque itaque laboriosam necessitatibus illo!
+            incidunt qui deleniti vel iste neque commodi, id, !
           </p>
-          <p>
+          {/* <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
             velit debitis saepe rem incidunt qui deleniti vel iste neque
             commodi, id, recusandae, ab ullam aperiam doloremque itaque
             laboriosam necessitatibus illo! Lorem ipsum dolor sit amet
             consectetur adipisicing elit.
-          </p>
+          </p> */}
           {/* <br />
           <br />
           <br /> */}
           <h4>Let's talk.</h4>
           <p>Email: artist@photography.com</p>
-
           <h4>Social Media:</h4>
           <p>Instagram: @iheartpics</p>
         </div>

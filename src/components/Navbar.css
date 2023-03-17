@@ -52,7 +52,7 @@
     top: 60px;
     display: flex;
     flex-direction: column;
-    /* background: #3b4da7; */
+    text-align: center;
     background-color: #353434d5;
     left: 0;
     width: 100%;

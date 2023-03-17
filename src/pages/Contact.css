@@ -1,5 +1,4 @@
 .contact {
-  /* padding: 4em 0; */
   display: flex;
 }
 
@@ -22,13 +21,13 @@ article {
 }
 .contact-text {
   padding: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 .contact-img {
-  max-width: 500px;
+  /* max-width: 500px; */
   position: relative;
   width: 100%;
-  margin-left: 2rem;
   padding: 2rem;
   border-radius: 9px;
   filter: grayscale(100%);

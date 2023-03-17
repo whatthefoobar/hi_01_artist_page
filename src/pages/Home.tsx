@@ -24,7 +24,7 @@ const Home = () => {
               risus. Morbi leo urna molestie at elementum. Urna cursus eget nunc
               scelerisque. Egestas pretium aenean pharetra magna.
             </p>
-            <p>
+            {/* <p>
               Laoreet suspendisse interdum consectetur libero id faucibus nisl
               tincidunt. Urna molestie at elementum eu facilisis sed odio.
               Porttitor rhoncus dolor purus non enim praesent. Etiam non quam
@@ -32,7 +32,7 @@ const Home = () => {
               aliquet lectus proin nibh nisl condimentum id venenatis. Sem nulla
               pharetra diam sit amet nisl suscipit adipiscing bibendum. Lorem
               sed risus ultricies tristique nulla.
-            </p>
+            </p> */}
           </div>
         </section>
 
