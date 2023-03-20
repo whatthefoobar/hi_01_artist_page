@@ -5,6 +5,7 @@ import Store from "./pages/Store";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Error from "./components/Error";
+import ProductPage from "./pages/ProductPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/contact" element={<Contact />} />
         <Route path="/store" element={<Store />} />
+        <Route path="/store/:productId" element={<ProductPage />} />
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Error />} />
       </Routes>

@@ -15,6 +15,10 @@
   /* border: 2px solid red; */
   padding: 5px;
 }
+.img-box img {
+  width: 100%;
+  object-fit: cover;
+}
 .img-box:hover {
   transform: scale(1.2);
   z-index: 2;
