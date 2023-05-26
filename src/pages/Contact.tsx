@@ -1,7 +1,7 @@
 import "./Contact.css";
 import artist from "../assets/img/artist1.jpeg";
 
-const Contact = () => {
+const Contact: React.FC = () => {
   return (
     <main className="contact">
       <article className="container row grey">

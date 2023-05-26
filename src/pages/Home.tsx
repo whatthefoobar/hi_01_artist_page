@@ -6,7 +6,7 @@ import img4 from "../assets/img/bw4.jpg";
 import img5 from "../assets/img/bw5.jpg";
 import img6 from "../assets/img/bw6.jpg";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <main className="main">
       <div className="container row grey">

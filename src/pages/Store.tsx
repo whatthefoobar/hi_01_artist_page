@@ -2,7 +2,7 @@ import "./Store.css";
 // import { Link } from "react-router-dom";
 import data from "../data";
 
-const Store = () => {
+const Store: React.FC = () => {
   return (
     <div className="container gallery">
       {data.map((picture) => (

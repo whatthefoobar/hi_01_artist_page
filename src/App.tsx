@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import Error from "./components/Error";
 import ProductPage from "./pages/ProductPage";
 
-function App() {
+const App: React.FC = () => {
   return (
     <Router>
       <Navbar />
@@ -20,6 +20,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
